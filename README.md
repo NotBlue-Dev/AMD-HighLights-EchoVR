@@ -11,6 +11,10 @@ Set your relive folder path
 Set your shortcut to save replay (see in amd app)
 Enjoy
 
+### Screenshot
+
+![Capture](https://user-images.githubusercontent.com/64601123/182274368-9728f830-69bb-4714-95c6-61515d43104a.PNG)
+
 ### Info
 
 This projects was made in barely 4 hours during nights <br>
