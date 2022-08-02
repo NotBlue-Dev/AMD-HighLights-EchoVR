@@ -1,0 +1,24 @@
+{
+    "shortcut":["control","shift","s"],
+    "scope":"2",
+    "path":"",
+    "game": {
+        "events": [
+            {
+                "event": "Score",
+                "delay": "3",
+                "used": true
+            },
+            {
+                "event": "Assist",
+                "delay": "3",
+                "used": false
+            },
+            {
+                "event": "Save",
+                "delay": "3",
+                "used": true
+            }
+        ]
+    }
+}

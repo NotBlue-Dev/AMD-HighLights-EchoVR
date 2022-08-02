@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <link href="style.css" rel="stylesheet">
+    <title>Echo Arena Overlay</title>
+  </head>
+  <body id="body">
+    <div class="box">
+      <div class="content">
+        <nav class="navbar-container">
+          <div class="navbar-header">
+            <img alt="logo" class="navbar-logo" src="../assets/minimap_disc.png">
+          </div>
+          <ul class="navbar-nav">
+            <li id="dashboard" class="active"><a  href="#">Dashboard</a></li>
+          </ul>
+        </nav>
+        <section id="dashboard-wrapper">
+          <article>
+            <h2>Shortcut</h2>
+            <article class="block">
+              <div>
+                <label for="keys">Keys (order doesn't matter)</label>
+                <div class="inline">
+                  <input type="text" class="txt" id="keys" />
+                  <button id="record">record</button>
+                </div>
+              </div>
+
+              <div>
+                <label for="path">Replay Path</label>
+                <div class="inline no-bottom" >
+                  <input type="text" class="txt" id="path" />
+                </div>
+              </div>
+            </article>
+          </article>
+
+          <article>
+            <h2>Scope</h2>
+            <article class="block" id="events">
+              <label for="scope">Player Scope</label>
+              <div class="inline"><select id="scope" class="txt"  class="echo-arena-event-select">
+                <option value="0">All player</option>
+                <option value="1">Your Team</option>
+                <option value="2">You</option>
+              </select></div>
+            </article>
+          </article>
+
+          <article>
+            <h2>Events</h2>
+            <article class="block" id="events">
+              <label for="event[0]">Event</label>
+              <div class="inline"><select id="event[0]" class="txt"  class="echo-arena-event-select"></select></div>
+              
+              <label for="scene[0]">Seconds After</label>
+              <div class="inline"><input id="duration[0]" class="txt" type="number" min="1"/></div>
+          
+              <label for="event">Clip this event</label>
+              <div class="inline"><label for="event"><input type="checkbox" id="event"/> <a>Enable</a></label></div>
+              
+            </article>
+          </article>
+        </section>
+
+      </div>
+      <div class="content" id="loader">
+        <img class="gif" src="../assets/spin.gif"/>
+      </div>
+    </div>
+    
+  </body>
+</html>
