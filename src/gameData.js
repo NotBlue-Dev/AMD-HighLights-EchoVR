@@ -1,8 +1,6 @@
 class GameData {
     constructor(json) {
-        // this.me = json.client_name
-        this.me='Nxy-'
-        this.myteam = 'blue'
+        this.me=json.client_name
         this.timestamp = Date.now()
         this.clock = json.game_clock
         this.teams = json.teams
