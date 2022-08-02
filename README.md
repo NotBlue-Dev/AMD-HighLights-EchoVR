@@ -1,7 +1,5 @@
 ## AMD-HighLights-EchoVR
 
-I WILL UPLOAD THE RELEASE BACK IN 10HR I FORGOT TO FIX A BIG BUG
-
 This projects allows you to use ReLive with echoVR events. <br>
 If your computer is a potatoe and can't run OBS and EchoVR at the same time but you want to clip your 3 meters shots, this is made for you
 
